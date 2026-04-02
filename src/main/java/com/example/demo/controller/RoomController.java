@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/rooms")
-@CrossOrigin(origins = "http://localhost:5173") 
+@CrossOrigin(origins = "https://hotel-management-frontend-mjbr.onrender.com") 
 public class RoomController {
 
     @Autowired

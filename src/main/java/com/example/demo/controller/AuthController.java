@@ -13,8 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-// Ensure this matches your Vite port (5173) or update to match your server
-@CrossOrigin(origins = "http://localhost:5173") 
+@CrossOrigin(origins = "https://hotel-management-frontend-mjbr.onrender.com") 
 public class AuthController {
 
     @Autowired

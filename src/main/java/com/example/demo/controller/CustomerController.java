@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/customers")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://hotel-management-frontend-mjbr.onrender.com")
 public class CustomerController {
 
     @Autowired
